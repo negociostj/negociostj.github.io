@@ -52,5 +52,11 @@ body{padding-bottom:100px}
 </div>
 <!-- BANNER FIJO ABAJO END -->
 
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js');
+}
+</script>
+
 </body>
 </html>
